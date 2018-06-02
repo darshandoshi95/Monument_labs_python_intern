@@ -1,0 +1,7 @@
+This text file displays the report of time elapsed 
+
+
+Total elapsed time:   0.065093994140625
+Average elapsed time: 0.008136749267578125
+Maximum elapsed time: uptime-	0.013911962509155273
+Minimum elapsed time: sleep 4-	0.0049130916595458984
