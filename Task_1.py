@@ -72,7 +72,7 @@ def generate_report(time,key_max,key_min,avg,total_time):
     path=os.path.dirname(os.path.abspath(sys.argv[0]))
     file = open(path+"/"+"Report.txt", "w")  # store the report in the text file
     file.write("This text file displays the report of time elapsed \n\n\n")
-    file.write("Total elapsed time:    "+str(total_time)+"\n")
+    file.write("Total elapsed time:   "+str(total_time)+"\n")
     file.write('Average elapsed time: ' + str(avg) + "\n")
     file.write('Maximum elapsed time: ' + str(key_max) + "-\t" + str(time[key_max]) + "\n")
     file.write('Minimum elapsed time: ' + str(key_min) + "-\t" + str(time[key_min]))
